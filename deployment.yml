@@ -6,13 +6,13 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      luv: jos
+      web: apps
   template:
     metadata:
-      name: jos
+      name: aj
       labels:
-        luv: jos
+        web: apps
     spec:
       containers:
         - name: c1
-          image: luvisjostonj/health:3
+          image: jobinaj/health:3
