@@ -9,6 +9,6 @@
     - name: start docker
       service: name=docker state=started
     - name: docker image
-      command: docker pull jobinaj/health:26
+      command: docker pull jobinaj/health:29
     - name: docker con
-      command: docker run -d -p 8282:8082 jobinaj/health:26
+      command: docker run -d -p 7979:8082 jobinaj/health:29
