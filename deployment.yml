@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
         - name: c1
-          image: jobinaj/health:30
+          image: jobinaj/health:32
